@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-21T15:25:03 IST" name="Suite" finished-at="2023-10-21T15:28:25 IST" duration-ms="202404">
+    <groups>
+    </groups>
+    <test started-at="2023-10-21T15:25:03 IST" name="Test" finished-at="2023-10-21T15:28:25 IST" duration-ms="202404">
+      <class name="com.crm.test.search.search">
+        <test-method signature="LoginPageTest()[pri:1, instance:com.crm.test.search.search@4e07b95f]" started-at="2023-10-21T15:28:02 IST" name="LoginPageTest" description="TC001_Automating Basic Search" finished-at="2023-10-21T15:28:25 IST" duration-ms="23535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="clearAll(org.testng.ITestResult)[pri:0, instance:com.crm.test.search.search@4e07b95f]" started-at="2023-10-21T15:28:25 IST" name="clearAll" finished-at="2023-10-21T15:28:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=search.LoginPageTest()[pri:1, instance:com.crm.test.search.search@4e07b95f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAll -->
+      </class> <!-- com.crm.test.search.search -->
+      <class name="com.crm.test.cart.VerifyRemoveItemsFromCart">
+        <test-method signature="LoginPageTest()[pri:1, instance:com.crm.test.cart.VerifyRemoveItemsFromCart@51c693d]" started-at="2023-10-21T15:26:26 IST" name="LoginPageTest" description="TC005_verifyCartCountOnAddToCart" finished-at="2023-10-21T15:27:00 IST" duration-ms="34820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="clearAll(org.testng.ITestResult)[pri:0, instance:com.crm.test.cart.VerifyRemoveItemsFromCart@51c693d]" started-at="2023-10-21T15:27:00 IST" name="clearAll" finished-at="2023-10-21T15:27:00 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=VerifyRemoveItemsFromCart.LoginPageTest()[pri:1, instance:com.crm.test.cart.VerifyRemoveItemsFromCart@51c693d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAll -->
+      </class> <!-- com.crm.test.cart.VerifyRemoveItemsFromCart -->
+      <class name="com.crm.test.search.verifyEmptyStringSearch">
+        <test-method signature="LoginPageTest()[pri:1, instance:com.crm.test.search.verifyEmptyStringSearch@7b7fdc8]" started-at="2023-10-21T15:26:01 IST" name="LoginPageTest" description="TC002_Automating Empty String Search" finished-at="2023-10-21T15:26:25 IST" duration-ms="24859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="clearAll(org.testng.ITestResult)[pri:0, instance:com.crm.test.search.verifyEmptyStringSearch@7b7fdc8]" started-at="2023-10-21T15:26:26 IST" name="clearAll" finished-at="2023-10-21T15:26:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=verifyEmptyStringSearch.LoginPageTest()[pri:1, instance:com.crm.test.search.verifyEmptyStringSearch@7b7fdc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAll -->
+      </class> <!-- com.crm.test.search.verifyEmptyStringSearch -->
+      <class name="com.crm.test.cart.verifyCartCountOnAddToCart">
+        <test-method signature="LoginPageTest()[pri:1, instance:com.crm.test.cart.verifyCartCountOnAddToCart@a82c5f1]" started-at="2023-10-21T15:25:34 IST" name="LoginPageTest" description="TC005_verifyCartCountOnAddToCart" finished-at="2023-10-21T15:26:01 IST" duration-ms="27025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="clearAll(org.testng.ITestResult)[pri:0, instance:com.crm.test.cart.verifyCartCountOnAddToCart@a82c5f1]" started-at="2023-10-21T15:26:01 IST" name="clearAll" finished-at="2023-10-21T15:26:01 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=verifyCartCountOnAddToCart.LoginPageTest()[pri:1, instance:com.crm.test.cart.verifyCartCountOnAddToCart@a82c5f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAll -->
+      </class> <!-- com.crm.test.cart.verifyCartCountOnAddToCart -->
+      <class name="com.crm.test.search.verifyNoSearchResultsForRandomString">
+        <test-method signature="LoginPageTest()[pri:1, instance:com.crm.test.search.verifyNoSearchResultsForRandomString@6a57ae10]" started-at="2023-10-21T15:27:00 IST" name="LoginPageTest" description="TC003_Automating No results random string Search" finished-at="2023-10-21T15:27:27 IST" duration-ms="26599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="clearAll(org.testng.ITestResult)[pri:0, instance:com.crm.test.search.verifyNoSearchResultsForRandomString@6a57ae10]" started-at="2023-10-21T15:27:27 IST" name="clearAll" finished-at="2023-10-21T15:27:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=verifyNoSearchResultsForRandomString.LoginPageTest()[pri:1, instance:com.crm.test.search.verifyNoSearchResultsForRandomString@6a57ae10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAll -->
+      </class> <!-- com.crm.test.search.verifyNoSearchResultsForRandomString -->
+      <class name="com.crm.test.search.verifySearchPaginationResults">
+        <test-method signature="LoginPageTest()[pri:1, instance:com.crm.test.search.verifySearchPaginationResults@766653e6]" started-at="2023-10-21T15:27:27 IST" name="LoginPageTest" description="TC004_Automating Pagination Search Results" finished-at="2023-10-21T15:28:02 IST" duration-ms="34810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="clearAll(org.testng.ITestResult)[pri:0, instance:com.crm.test.search.verifySearchPaginationResults@766653e6]" started-at="2023-10-21T15:28:02 IST" name="clearAll" finished-at="2023-10-21T15:28:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=verifySearchPaginationResults.LoginPageTest()[pri:1, instance:com.crm.test.search.verifySearchPaginationResults@766653e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAll -->
+      </class> <!-- com.crm.test.search.verifySearchPaginationResults -->
+      <class name="com.crm.test.cart.verifyProductDisplayedInCart">
+        <test-method signature="LoginPageTest()[pri:1, instance:com.crm.test.cart.verifyProductDisplayedInCart@1c39680d]" started-at="2023-10-21T15:25:03 IST" name="LoginPageTest" description="TC005_verifyCartCountOnAddToCart" finished-at="2023-10-21T15:25:34 IST" duration-ms="30587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="clearAll(org.testng.ITestResult)[pri:0, instance:com.crm.test.cart.verifyProductDisplayedInCart@1c39680d]" started-at="2023-10-21T15:25:34 IST" name="clearAll" finished-at="2023-10-21T15:25:34 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=verifyProductDisplayedInCart.LoginPageTest()[pri:1, instance:com.crm.test.cart.verifyProductDisplayedInCart@1c39680d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.test.cart.verifyProductDisplayedInCart@1c39680d]" started-at="2023-10-21T15:28:26 IST" name="tearDown" finished-at="2023-10-21T15:28:26 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.test.cart.verifyProductDisplayedInCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
